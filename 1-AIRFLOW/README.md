@@ -86,28 +86,42 @@ Disponibilização contínua de dados confiáveis e estruturados, reduzindo esfo
 
 ```cd seu-repositorio```
 
-2. Configurar o Airflow
+2. Configurar o Airflow usando o Docker Desktop
+
+* Instale o Docker Desktop
+
+* Crie um diretório para seus arquivos do Airflow
+
+* Navegue até ele
+
+* Baixe o arquivo docker-compose.yaml da documentação oficial do Airflow (procure por "Docker Compose")
+
+* Execute o comando para criar as imagens Docker do Airflow. Isso pode levar alguns minutos.
+
+    ```docker compose up airflow-init```
+
+* Execute o comando para inicializar o airflow
+
+    ```docker compose up```
+
+* Acesse o Airflow em http://localhost:8080. Use admin/admin como usuário/senha iniciais (ou as credenciais definidas no .env se usar a instalação padrão).
+
+* Criar a seguinte estrutura de pastas:
+    * config
+    * dags
+    * logs
+    * plugins
 
 * Coloque o arquivo Python da DAG dentro do diretório dags/ do Airflow
 * Ajuste o caminho do banco SQLite, se necessário
 
-3. Instalar dependências
-
-```pip install apache-airflow requests```
-
-4. Subir o Airflow
-
-```airflow webserver```
-
-```airflow scheduler```
-
-5. Executar o projeto
+3. Executar o projeto
 
 * Acesse a interface web do Airflow
 * Ative a DAG chamada projeto
 * O pipeline será executado automaticamente conforme o agendamento (* * * * *, a cada minuto)
 
-6. Visualizar os dados
+4. Visualizar os dados
 
 * O banco **'banco_dados.db'** será criado automaticamente
 * A tabela **'previsao_tempo'** conterá os dados processados
