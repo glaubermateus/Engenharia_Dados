@@ -22,7 +22,7 @@ dag = DAG('projeto', default_args = default_args, schedule_interval = "* * * * *
 # http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=5a4930f3cc87a81b68156de8e5365d1c
 def extrai_dados():
     URL_BASE = "http://api.openweathermap.org/data/2.5/weather?"
-    API_KEY = "5a4930f3cc87a81b68156de8e5365d1c"
+    API_KEY = "CHAVE-API"
     CIDADES = ["Indaiatuba", "Blumenau", "Palmas", "Joinville", "Santos", "Curitiba", "Fortaleza", "Manaus", "Betim", "Juazeiro"]
     dados_cidades = []
     for cidade in CIDADES:
@@ -68,4 +68,5 @@ tarefa_carrega_dados = PythonOperator(task_id = 'carrega_dados', python_callable
 
 # Airflow
 # Define a sequência de execução das tarefas
+
 tarefa_extrai_dados >> tarefa_transforma_dados >> tarefa_carrega_dados
