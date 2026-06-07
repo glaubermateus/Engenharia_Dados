@@ -1,0 +1,51 @@
+id_campanha;nome_campanha;objetivo;orcamento;data_inicio;data_fim;status
+1;Conversão - Seguro;Conhecimento;8170.15;2025-09-05;2026-06-05;Ativo
+2;Conversão - Smartphone;Tráfego;19676.25;2025-07-02;2026-06-05;Pausado
+3;Natal - Curso;Leads;23414.44;2025-08-01;2026-06-05;Pausado
+4;Black Friday - Cartão;Conhecimento;31537.11;2026-06-02;2026-06-05;Pausado
+5;Natal - Seguro;Conversão;32105.21;2026-03-07;2026-06-05;Finalizado
+6;Lead Generation - Consultoria;Conhecimento;47452.46;2025-06-15;2026-06-05;Finalizado
+7;Retenção - Consultoria;Conversão;11597.52;2025-08-01;2026-06-05;Finalizado
+8;Promoção - Cartão;Tráfego;35278.57;2025-07-17;2026-06-05;Finalizado
+9;Lead Generation - Notebook;Conhecimento;10896.38;2026-02-24;2026-06-05;Finalizado
+10;Promoção - Curso;Leads;38158.69;2025-12-15;2026-06-05;Ativo
+11;Carrinho Abandonado - Seguro;Conversão;49254.33;2026-05-29;2026-06-05;Pausado
+12;Lead Generation - Seguro;Conversão;38516.28;2025-12-30;2026-06-05;Ativo
+13;Black Friday - Curso;Tráfego;34922.72;2026-04-16;2026-06-05;Ativo
+14;Lead Generation - Notebook;Leads;27658.26;2026-02-06;2026-06-05;Pausado
+15;Awareness - Streaming;Leads;5411.44;2026-04-13;2026-06-05;Ativo
+16;Lançamento - Streaming;Leads;40234.48;2025-12-19;2026-06-05;Pausado
+17;Awareness - Consultoria;Conversão;18945.37;2025-07-12;2026-06-05;Finalizado
+18;Conversão - Notebook;Conhecimento;12948.76;2026-05-30;2026-06-05;Ativo
+19;Carrinho Abandonado - E-commerce;Conversão;23497.06;2025-12-10;2026-06-05;Ativo
+20;Lançamento - Consultoria;Conversão;19166.8;2026-02-07;2026-06-05;Ativo
+21;Retenção - E-commerce;Conversão;49009.36;2026-04-19;2026-06-05;Ativo
+22;Awareness - Smartphone;Conversão;27039.23;2025-09-27;2026-06-05;Finalizado
+23;Lead Generation - Streaming;Conhecimento;19528.65;2025-11-19;2026-06-05;Pausado
+24;Conversão - Streaming;Leads;36856.91;2025-07-28;2026-06-05;Ativo
+25;Remarketing - Curso;Conhecimento;15951.94;2025-08-18;2026-06-05;Pausado
+26;Remarketing - Smartphone;Conhecimento;27196.56;2026-02-21;2026-06-05;Finalizado
+27;Carrinho Abandonado - Smartphone;Conhecimento;21790.31;2026-02-07;2026-06-05;Ativo
+28;Lead Generation - Seguro;Leads;45408.77;2026-02-21;2026-06-05;Ativo
+29;Promoção - Cartão;Leads;27992.3;2025-07-21;2026-06-05;Ativo
+30;Lançamento - Notebook;Conhecimento;28148.46;2026-05-09;2026-06-05;Pausado
+31;Awareness - Consultoria;Leads;13785.26;2025-10-10;2026-06-05;Finalizado
+32;Promoção - Streaming;Conhecimento;22865.73;2025-12-16;2026-06-05;Ativo
+33;Retenção - Notebook;Tráfego;32778.1;2025-06-15;2026-06-05;Ativo
+34;Retenção - Streaming;Conversão;21833.57;2025-06-12;2026-06-05;Ativo
+35;Natal - E-commerce;Conversão;8437.21;2025-09-20;2026-06-05;Pausado
+36;Black Friday - Notebook;Tráfego;16414.42;2026-02-05;2026-06-05;Finalizado
+37;Lançamento - Curso;Tráfego;14891.77;2025-12-03;2026-06-05;Finalizado
+38;Remarketing - Smartphone;Conversão;37693.41;2026-01-12;2026-06-05;Finalizado
+39;Retenção - Smartphone;Tráfego;46353.04;2025-10-25;2026-06-05;Finalizado
+40;Awareness - Curso;Conhecimento;41350.96;2026-03-24;2026-06-05;Finalizado
+41;Conversão - E-commerce;Conversão;8801.59;2025-11-22;2026-06-05;Ativo
+42;Promoção - Seguro;Conversão;44497.74;2025-08-19;2026-06-05;Ativo
+43;Retenção - Consultoria;Conversão;24657.03;2026-04-15;2026-06-05;Pausado
+44;Carrinho Abandonado - Streaming;Leads;29039.22;2026-02-20;2026-06-05;Ativo
+45;Conversão - Notebook;Leads;17121.39;2025-12-28;2026-06-05;Ativo
+46;Awareness - Curso;Leads;30403.04;2026-02-14;2026-06-05;Pausado
+47;Retenção - Curso;Conversão;31124.09;2026-01-20;2026-06-05;Pausado
+48;Lead Generation - Notebook;Leads;29056.97;2025-10-19;2026-06-05;Ativo
+49;Lead Generation - E-commerce;Conhecimento;17017.19;2026-01-13;2026-06-05;Pausado
+50;Remarketing - E-commerce;Tráfego;42506.06;2025-08-24;2026-06-05;Finalizado
