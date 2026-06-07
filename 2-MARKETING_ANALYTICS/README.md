@@ -231,7 +231,7 @@ Conversões
 │   ├── load.py
 │   ├── pipeline.py
 │
-├── generators/
+├── geradores/
 │   ├── gerar_tb_dimensao.py
 │   ├── gerar_tb_fato.py
 │   ├── gerar_tb_fato_incremental.py
@@ -279,11 +279,11 @@ pip install -r requirements.txt
 Criar um arquivo `.env` baseado no `.env.example`.
 
 ```env
-DB_HOST=localhost
-DB_PORT=5437
-DB_NAME=marketing_dw
-DB_USER=admin
-DB_PASSWORD=admin
+DB_HOST=DB_HOST
+DB_PORT=1111
+DB_NAME=DB_NAME
+DB_USER=DB_USER
+DB_PASSWORD=DB_PASSWORD
 ```
 
 ### 4. Subir o PostgreSQL
@@ -295,16 +295,22 @@ docker compose up -d
 ### 5. Gerar dimensões
 
 ```bash
-python generators/generate_dimensions.py
+python geradores/gerar_tb_dimensao.py
 ```
 
 ### 6. Gerar dados RAW
 
 ```bash
-python generators/generate_raw.py
+python geradores/gerar_tb_fato.py
 ```
 
-### 7. Executar ETL
+### 7. Gerar dados RAW INCREMENTAL (Opcional)
+
+```bash
+python geradores/gerar_tb_fato_incremental.py
+```
+
+### 8. Executar ETL
 
 ```bash
 python -m etl/pipeline
@@ -348,4 +354,4 @@ https://github.com/glaubermateus
 
 Repositório:
 
-https://github.com/glaubermateus/Engenharia_Dados/tree/main/2-Analytics_Engineer_Marketing
+https://github.com/glaubermateus/Engenharia_Dados/tree/main/2-MARKETING_ANALYTICS
