@@ -10,7 +10,7 @@ O projeto foi construído aplicando conceitos de Engenharia de Dados e Analytics
 
 ## 🏗️ Arquitetura da Solução
 
-![Arquitetura do Projeto](docs/arquitetura.png)
+![Arquitetura do Projeto](docs/arquitetura_projeto.png)
 
 ```text
 Docker
