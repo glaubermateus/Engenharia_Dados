@@ -205,7 +205,7 @@ Conversões
 ## 📁 Estrutura do Projeto
 
 ```text
-2-Analytics_Engineer_Marketing/
+2-MARKETING_ANALYTICS/
 
 ├── config/
 │   ├── .env
@@ -265,7 +265,7 @@ Conversões
 ```bash
 git clone https://github.com/glaubermateus/Engenharia_Dados.git
 
-cd Engenharia_Dados/2-Analytics_Engineer_Marketing
+cd Engenharia_Dados/2-MARKETING_ANALYTICS
 ```
 
 ### 2. Instalar dependências
