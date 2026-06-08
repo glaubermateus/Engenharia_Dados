@@ -159,11 +159,11 @@ CREATE TABLE IF NOT EXISTS staging.tb_staging_marketing (
 
     receita             NUMERIC(18,2),
 
-    ctr                 NUMERIC(18,6),
+    taxa_cliques        NUMERIC(18,6),
 
     taxa_conversao      NUMERIC(18,6),
 
-    roi                NUMERIC(18,6),
+    roi                 NUMERIC(18,6),
 
     criado_em           TIMESTAMP
 );
@@ -198,11 +198,11 @@ CREATE TABLE IF NOT EXISTS analytics.tb_marketing_analytics (
 
     receita             NUMERIC(18,2),
 
-    ctr                 NUMERIC(18,6),
+    taxa_cliques        NUMERIC(18,6),
 
     taxa_conversao      NUMERIC(18,6),
 
-    roi                NUMERIC(18,6),
+    roi                 NUMERIC(18,6),
 
     criado_em           TIMESTAMP,
 
