@@ -10,7 +10,8 @@ O projeto foi construído aplicando conceitos de Engenharia de Dados e Analytics
 
 ## 🏗️ Arquitetura da Solução
 
-![Arquitetura do Projeto](docs/arquitetura_projeto.png)
+![Arquitetura do Projeto](https://github.com/glaubermateus/Engenharia_Dados/blob/main/2-MARKETING_ANALYTICS/docs/arquitetura_projeto.png)
+
 
 ```text
 Docker
@@ -198,7 +199,7 @@ Conversões
 
 ### Visão Geral
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](https://github.com/glaubermateus/Engenharia_Dados/blob/main/2-MARKETING_ANALYTICS/docs/dashboard.png)
 
 ---
 
