@@ -293,25 +293,32 @@ DB_PASSWORD=DB_PASSWORD
 docker compose up -d
 ```
 
-### 5. Gerar dimensões
+### 5. Instalar dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+
+### 6. Gerar dimensões
 
 ```bash
 python geradores/gerar_tb_dimensao.py
 ```
 
-### 6. Gerar dados RAW
+### 7. Gerar dados RAW
 
 ```bash
 python geradores/gerar_tb_fato.py
 ```
 
-### 7. Gerar dados RAW INCREMENTAL (Opcional)
+### 8. Gerar dados RAW INCREMENTAL (Opcional)
 
 ```bash
 python geradores/gerar_tb_fato_incremental.py
 ```
 
-### 8. Executar ETL
+### 9. Executar ETL
 
 ```bash
 python -m etl/pipeline
