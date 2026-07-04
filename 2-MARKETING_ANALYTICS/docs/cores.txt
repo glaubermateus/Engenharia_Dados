@@ -1,19 +1,47 @@
-BRANCO
+-> Fundo (lilás/cinza suave)
+
+#F1F1FA
+
+
+-> Cards (branco)
 
 #FFFFFF
 
-VERDE ÁGUA CLARO
 
-#5E9188
+-> Divisórias e bordas
 
-VERDE ÁGUA ESCURO
+#D2D0DB
 
-#3E5954
 
-AZUL ESCURO
+-> Cor Primária (Roxo)
 
-#253342
+usada em: Logo, KPI's, Gráficos e Destaques
 
-AZUL MEIA NOITE
+#8770E1
 
-#232226
+
+-> Cor Secundária (Azul Claro)
+
+usada em: Receita, Série secundária, destaques positivos
+
+#75D4F7
+
+
+-> Título
+
+#111111
+
+
+-> Texto secundário
+
+#585858
+
+
+-> Texto Terciário
+
+160, 160, 160
+
+
+-> Verde de crescimento
+
+#22C55E
