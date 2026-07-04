@@ -349,10 +349,6 @@ python -m etl/pipeline
 
 ### Glauber Cruz
 
-GitHub:
+[LinkedIn](https://www.linkedin.com/in/glauber-cruz-6213281b0/)
 
-https://github.com/glaubermateus
-
-Repositório:
-
-https://github.com/glaubermateus/Engenharia_Dados/tree/main/2-MARKETING_ANALYTICS
+[Portfólio](https://sites.google.com/view/glaubercruz/p%C3%A1gina-inicial)
